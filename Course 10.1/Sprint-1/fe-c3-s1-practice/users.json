@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "_username": "mim",
+      "_password": "mim123",
+      "_contact": "8409978804",
+      "_email": "mim@jfkkf",
+      "_address": "bhagalpur, bihar",
+      "id": 1
+    },
+    {
+      "_username": "arnav",
+      "_password": "arnav123",
+      "_contact": "8804556633",
+      "_email": "arnavraj@gmail.com",
+      "_address": "bhagalpur, bihar",
+      "id": 2
+    }
+  ]
+}

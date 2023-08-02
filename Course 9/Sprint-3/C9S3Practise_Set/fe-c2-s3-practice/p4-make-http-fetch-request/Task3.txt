@@ -1,0 +1,27 @@
+Task-3 -fetch movie by movie title 365 Days.
+------------------------------------------------------------
+URL - http://localhost:3000/movies/?movieTitle=365 Days
+Status code = 200 OK
+
+[
+    {
+        "id": 510,
+        "movieTitle": "365 Days",
+        "yearOfRelease": 2020,
+        "director": "Barbara Bialowas",
+        "cast": [
+            {
+                "actorName": "Anna-Maria Sieklucka",
+                "onScreenName": "Laura Biel"
+            },
+            {
+                "actorName": "Michele Morrone",
+                "onScreenName": "Massimo Torricelli"
+            }
+        ],
+        "rating": 3.3,
+        "genre": "Romance",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    }
+]

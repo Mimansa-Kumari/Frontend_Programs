@@ -1,0 +1,120 @@
+HTTP Request,Fetch all customer details,Fetch Customer by ID,Fetch Customer by Name,Fetch Customer by Email,Add new customer,Update customer details
+URL,http://localhost:3001/customers,http://localhost:3001/customers/1,,,,
+METHOD,GET,GET,POST,PUT,,
+"Request Body 		",,,,,,
+"Content Type	",,,,,,
+Body ,,,{
+        "id": 111,
+        "name": "Mim",
+        "email": "mimansa@gmail.com",
+        "phoneNumber": "+15836896543",
+        "address": {
+            "streetName": "Court Street",
+            "streetNo": "123",
+            "postalCode": "2617"
+        }
+    },{
+        "id": 111,
+        "name": "Mim",
+        "email": "mimansasaha1998@gmail.com",
+        "phoneNumber": "+8409978804",
+        "address": {
+            "streetName": "Court Street",
+            "streetNo": "123",
+            "postalCode": "812001"
+        }
+    },,
+,,,,,,
+HTTP Response,,,,,,
+Status Code,200,200,201,200,,
+Status Message,OK,OK,Created,OK,,
+Body,[
+    {
+        "id": 1,
+        "name": "David",
+        "email": "david@gmail.com",
+        "phoneNumber": "+11527896543",
+        "address": {
+            "streetName": "Court Street",
+            "streetNo": "123",
+            "postalCode": "2617"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Mary",
+        "email": "mary@gmail.com",
+        "phoneNumber": "+11524449876",
+        "address": {
+            "streetName": "Scottsdale Kierland",
+            "streetNo": "100",
+            "postalCode": "85254"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Jennifer",
+        "email": "Jennifer@yahoo.com",
+        "phoneNumber": "+11525432178",
+        "address": {
+            "streetName": "Beachwalk",
+            "streetNo": "902",
+            "postalCode": "96815"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Jessica",
+        "email": "Jessica@live.com",
+        "phoneNumber": "+11523456732",
+        "address": {
+            "streetName": "Bellevue Square",
+            "streetNo": "378",
+            "postalCode": "98004"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Paul",
+        "email": "Paul@gmail.com",
+        "phoneNumber": "+11526789543",
+        "address": {
+            "streetName": "Buena Vista Drive",
+            "streetNo": "A-498",
+            "postalCode": "32830"
+        }
+    }
+],{
+    "id": 1,
+    "name": "David",
+    "email": "david@gmail.com",
+    "phoneNumber": "+11527896543",
+    "address": {
+        "streetName": "Court Street",
+        "streetNo": "123",
+        "postalCode": "2617"
+    }
+},{
+    "id": 111,
+    "name": "Mim",
+    "email": "mimansa@gmail.com",
+    "phoneNumber": "+15836896543",
+    "address": {
+        "streetName": "Court Street",
+        "streetNo": "123",
+        "postalCode": "2617"
+    }
+},
+
+{
+    "id": 111,
+    "name": "Mim",
+    "email": "mimansasaha1998@gmail.com",
+    "phoneNumber": "+8409978804",
+    "address": {
+        "streetName": "Court Street",
+        "streetNo": "123",
+        "postalCode": "812001"
+    }
+}
+,,

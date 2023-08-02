@@ -1,0 +1,99 @@
+"HTTP Request		",To update movie for id 514,To update movie for id 500
+"URL		",http://localhost:3000/movies/504,http://localhost:3000/movies/501
+"METHOD	",PUT,PUT
+"Request Body 		",,
+"Content Type	",,
+Body ,{
+    "id": 504,
+    "movieTitle": "Father of the Bride",
+    "yearOfRelease": 2022,
+    "director": "Gary Alazraki",
+    "cast": [
+      {
+        "actorName": "Andy Garcia",
+        "onScreenName": "Billy Herrera"
+      },
+      {
+        "actorName": "Gloria Estefan",
+        "onScreenName": "Ingrid Herrera"
+      },
+      {
+        "actorName": "Adria Arjona",
+        "onScreenName": "Sofia Herrera"
+      }
+    ],
+    "rating": 5.9,
+    "genre": "Comedy",
+    "isOnOtt": true
+  },{
+    "id": 500,
+    "movieTitle": "Top Gun",
+    "yearOfRelease": 1986,
+    "director": "Top Gun",
+    "cast": [
+      {
+        "actorName": "Tom Cruise",
+        "onScreenName": "Maverick"
+      },
+      {
+        "actorName": "Tim Robbins",
+        "onScreenName": "Merlin"
+      },
+      {
+        "actorName": "Kelly McGillis",
+        "onScreenName": "Charlie"
+      }
+    ],
+    "rating": 6.9,
+    "genre": "Action",
+    "isOnOtt": true
+  }
+"HTTP Response		",,
+"Status Code		",200,200
+"Status Message	",OK,OK
+Body,{
+    "id": 504,
+    "movieTitle": "Father of the Bride",
+    "yearOfRelease": 2022,
+    "director": "Gary Alazraki",
+    "cast": [
+        {
+            "actorName": "Andy Garcia",
+            "onScreenName": "Billy Herrera"
+        },
+        {
+            "actorName": "Gloria Estefan",
+            "onScreenName": "Ingrid Herrera"
+        },
+        {
+            "actorName": "Adria Arjona",
+            "onScreenName": "Sofia Herrera"
+        }
+    ],
+    "rating": 5.9,
+    "genre": "Comedy",
+    "isOnOtt": true
+},
+{
+    "id": 501,
+    "movieTitle": "Top Gun",
+    "yearOfRelease": 1986,
+    "director": "Top Gun",
+    "cast": [
+        {
+            "actorName": "Tom Cruise",
+            "onScreenName": "Maverick"
+        },
+        {
+            "actorName": "Tim Robbins",
+            "onScreenName": "Merlin"
+        },
+        {
+            "actorName": "Kelly McGillis",
+            "onScreenName": "Charlie"
+        }
+    ],
+    "rating": 6.9,
+    "genre": "Action",
+    "isOnOtt": true
+}

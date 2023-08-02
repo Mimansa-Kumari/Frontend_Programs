@@ -1,0 +1,54 @@
+Menu.json with port no 3000
+------------------------------------------------------------------------------
+
+  Resources
+  http://localhost:3000/menu
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+GET /menu 200 20.990 ms - -
+
+
+Customers.json with port no 3001
+-------------------------------------------------------------------------------
+
+F:\NIIT\Course 9\Sprint-3\C9S3Challenge_Set\fe-c2-s3-challenge\api-data>json-server --watch customers.json --port 3001
+
+  \{^_^}/ hi!
+
+  Loading customers.json
+  Done
+
+  Resources
+  http://localhost:3001/customers
+
+  Home
+  http://localhost:3001
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+GET /customers 200 6.454 ms - -
+
+Orders.json with port no 3002
+--------------------------------------------------------------------------------------
+
+  \{^_^}/ hi!
+
+  Loading orders.json
+  Done
+
+  Resources
+  http://localhost:3002/orders
+
+  Home
+  http://localhost:3002
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+GET /orders 200 26.821 ms - -

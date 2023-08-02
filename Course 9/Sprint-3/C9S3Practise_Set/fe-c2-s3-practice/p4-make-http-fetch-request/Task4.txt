@@ -1,0 +1,51 @@
+Task-4 - fetch movies by genre Action
+---------------------------------------------------------------
+
+URL- http://localhost:3000/movies/?genre=Action
+Status code = 200 OK
+
+[
+    {
+        "id": 501,
+        "movieTitle": "Top Gun: Maverick",
+        "yearOfRelease": 2022,
+        "director": "Joseph Kosinski",
+        "cast": [
+            {
+                "actorName": "Tom Cruise",
+                "onScreenName": "Capt. Pete"
+            },
+            {
+                "actorName": "Jennifer Connelly",
+                "onScreenName": "Penny Benjamin"
+            },
+            {
+                "actorName": "Miles Teller",
+                "onScreenName": "Lt. Bradley"
+            }
+        ],
+        "rating": 8.6,
+        "genre": "Action",
+        "isOnOTT": false
+    },
+    {
+        "id": 502,
+        "movieTitle": "Spider-Man: No Way Home",
+        "yearOfRelease": 2021,
+        "director": "Jon Watts",
+        "cast": [
+            {
+                "actorName": "Tom Holland",
+                "onScreenName": "Peter Parker"
+            },
+            {
+                "actorName": "Zendaya",
+                "onScreenName": "MJ"
+            }
+        ],
+        "rating": 8.3,
+        "genre": "Action",
+        "isOnOTT": true,
+        "Ott": "Netflix"
+    }
+]

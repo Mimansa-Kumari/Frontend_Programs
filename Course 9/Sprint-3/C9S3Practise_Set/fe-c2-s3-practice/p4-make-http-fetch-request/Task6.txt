@@ -1,0 +1,6 @@
+Task-6 - fetch movie by invalid id 600
+
+URL - http://localhost:3000/movies/600
+Status code = 404 Not Found
+
+{}

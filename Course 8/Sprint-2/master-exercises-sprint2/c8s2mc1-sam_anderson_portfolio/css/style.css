@@ -1,0 +1,149 @@
+/* Write CSS code here */
+
+.container1
+{
+    background-color: #F9F4ED;
+    width: 50%;
+    margin: auto;
+}
+
+
+.logo h1
+{
+    display: inline block;
+    width: 50px;
+    font-size: 30px;
+    padding: 3px;
+    padding-left: 10px;
+    margin-left: 70px;
+    color: #444;
+    border: 5px solid #444;
+    border-radius: 7px;
+    font-family: Caveat;
+}
+
+
+header
+{
+    text-align: center;
+}
+
+
+#id1
+{
+    display: inline block;
+    width: 550px;
+    letter-spacing: 3px;
+    padding: 5px;
+    margin: auto;
+    color: #F9F4ED;
+    background-color: #c66;
+    font-family: Dosis;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+#id2
+{
+    letter-spacing: 3px;
+    font-family: Dosis;
+    color: #444;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+
+#id3
+{
+    font-family: Bitter;
+    margin: 0px 150px 30px 150px;
+}
+
+
+.container1 hr
+{
+    border-bottom: 7px solid#c66;
+    width: 550px;
+}
+
+
+section, aside
+{
+    margin: 80px;
+}
+
+
+section li h3 a
+{
+     color: #444;
+    font-family: Dosis;
+    font-size: 28px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+section ul li, aside nav ul li
+{
+    list-style: none;
+}
+
+
+section h2
+{
+    color: #444;
+    font-family: Bitter;
+    font-size: 25px;
+    font-weight:lighter;
+    padding-left: 15px;
+    line-height: 3.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(4,4,4, 0.1);
+}
+
+
+section p, aside nav ul li
+{
+    border-bottom: 1px solid rgba(4,4,4, 0.1);
+} 
+
+aside nav ul
+{
+    color: #444;
+    font-family: Bitter;
+    font-weight:bold;
+    padding-left: 15px;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+}
+
+aside nav ul li a
+{
+    font-family: Dosis;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #444;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.container3 p, section p
+{
+    margin-top: -14px;
+    padding-bottom: 23px;
+}
+
+footer
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #444;
+}

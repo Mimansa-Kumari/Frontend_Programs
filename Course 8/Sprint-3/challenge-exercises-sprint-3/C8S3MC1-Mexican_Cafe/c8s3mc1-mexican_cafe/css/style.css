@@ -1,0 +1,93 @@
+/* Write CSS code here */
+
+body
+{
+    background-color: #ecd7d2;
+}
+form
+{
+    float: left;
+    padding-left:80px ;
+}
+input
+{
+    color: yellow;
+    padding: 7px 22px;
+    margin-top: 30px;
+    margin-right: 110px;
+    border-radius: 7px;
+    background-color: #451207;
+}
+header::after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+.figure1
+{
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+.figcaption1
+{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    color: yellow;
+    font-size: larger;
+}
+#para1
+{
+    color:#451207;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.figure2 figure
+{
+    float: left;
+    margin-top: 40px;
+    margin-left: 0px;
+    position: relative;
+    width: 200px;
+    height: 170px;
+    background-color: #451207;
+}
+#img1,#img2,#img3
+{
+    border-radius: 50%;
+    position: absolute;
+    left: 48px;
+    top: 25px;
+}
+.figure2 figcaption
+{
+    position: absolute;
+    left: 45px;
+    bottom: 30px;
+    color: yellow;
+}
+.figure2 figure ::after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+main::after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+footer figure
+{
+    float: left;
+}
+footer figure::after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
